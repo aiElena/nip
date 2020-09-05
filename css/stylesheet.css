@@ -42,6 +42,7 @@
 body {
     font-family: "GothamPro-Light", "Open Sans", sans-serif;
     color: #444444;
+
 }
 a {
     color: rgb(27, 75, 164);
@@ -61,7 +62,7 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.2;
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 0;
 }
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
