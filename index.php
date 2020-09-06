@@ -417,7 +417,7 @@
                 <h2>ПОМОЖЕМ РЕАЛИЗОВАТЬ ПРОСТЫЕ ИЛИ АМБИЦИОЗНЫЕ ИДЕИ</h2>
             </div>
             <div class="row">
-                <div class="col-lg-6">
+                <div class="h-75 col-lg-6">
                     <div class="ideas-item">
                         <p>
                         &emsp;Хочешь формировать будущее? На НИП каждый сможет выдвинуть свою идею, получить на нее обратную связь не представителей государства, а таких же осознанных, самостоятельных, думающих людей, которые сами хотят определять где им жить и как. На платформе можно будет получить среду для развития и доработки своей идеи, проверенные, протестированные и утвержденные идеи будут выставлены на капитализацию народными инвесторами, а затем будет сформирована команда специалистов под каждый проект, подобран персонал и налажено производство, команда платформы будет контролировать оптимизацию технологического процесса, обеспечивать правовую поддержку, бухгалтерию, продвижение продукта и формирование сообщества для его реализации.<br/>
@@ -427,7 +427,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="h-75 col-lg-6">
                     <img src="images/shema.png" alt="Схема инвестиции">
                 </div>
                 <div class="col-lg-12 text-center">
@@ -1183,6 +1183,8 @@
                                     <a href="javascript:void(0);" class="btn-get-started animate__animated animate__fadeInUp text-center">Маркетинг план</a>
                                 </div>
                             </div>
+                            <div id="carousel" class="carousel slide" data-ride="carousel">
+                           
                             <div class="row">
                                 <div class="col-lg-2">
                                     <div class="invest-item">
@@ -1922,11 +1924,11 @@
     var slider = multiItemSlider('.slider')
 
     </script>
-    <!--<script>
+    <script>
         $(document).ready(function () {
             $('#investing').modal("toggle");
         });
-    </script>-->
+    </script>
 
 
 </body>

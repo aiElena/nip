@@ -239,8 +239,9 @@ section.invest h3,
     text-transform: uppercase;
 }
 section.ideas {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    height: 87vh;
 }
 section.ideas img {
     width: 100%;
@@ -249,7 +250,7 @@ section.ideas .ideas-item {
     border: 1px solid rgb(95, 105, 129);
     border-radius: 20px;
     padding: 10px 20px 0 20px;
-    margin: 10px 0 10px 0;
+    margin: 5px 0 10px 0;
     background: #fff;
 }
 section.ideas .ideas-item p {
@@ -262,7 +263,7 @@ section.ideas .ideas-item p {
 }
 section.ideas .btn {
     width: 400px;
-    margin-top: 5%;
+                            /*margin-top: 5%;*/
 }
 section.invest {
     padding-top: 20px;
@@ -1023,6 +1024,10 @@ section#contact form#contactForm :-ms-input-placeholder {
     background: rgb(0, 100, 180);
     border: 1px solid rgb(0, 100, 180);
 }
+.btn-social:hover {
+    background: #0092ca;
+    border: 1px solid #0092ca;
+}
 .text-lg-right>a {
     margin-right: 0px !important;
 }
@@ -1304,9 +1309,9 @@ section.life .life-item-container {
         margin-top: 0;
         height: 90%;
     }
-    section.ideas .btn {
-        margin: -40px 0 17px 0;
-    }
+                            /*section.ideas .btn {
+                                margin: -40px 0 17px 0;
+                            }*/
     section.map .btn {
         margin: -40px 0 0 0;
     }
@@ -1323,13 +1328,13 @@ section.ideas .ideas-item p {
     line-height: 1.2;
 }
 section.ideas img {
-    width: 85%;
+    width: 80%;
     margin-top: -40px;
-    height: 85%;
+    height: 80%;
 }
-section.ideas .btn {
-    margin-top: -100px;
-}
+                        /*section.ideas .btn {
+                            margin-top: -100px;
+                        }*/
 }
 @media (max-width: 1200px) {
     section.map img {
@@ -1553,10 +1558,14 @@ section.ideas .btn {
     font-size: 14px;
     color: #fff;
     letter-spacing: 0.0625em;
-
+    padding: 8px 5px;
+    border: 1px solid #1e45a1;
+    background: #1e45a1;
 }
 .menu-bottom a.nav-item:hover {
-    color: #0092ca;
+    background: #0092ca;
+    border: 1px solid #0092ca;
+    color: #fff;
 }
 @media (max-width: 768px) {
     .menu-bottom {
