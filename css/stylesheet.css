@@ -345,6 +345,26 @@ section.invest .link-btn a:hover {
     text-decoration: none;
 }
 
+.modal .link-btn {
+    font-family: "GothamPro-Bold", sans-serif;
+    color: #fba104;
+    font-size: 17px;
+    text-transform: uppercase;
+    max-width: 290px;
+    background-color: #fff;
+    border: 2px solid #fba104;
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    text-decoration: none;
+    margin: 0 10px 0 10px;
+}
+.modal .link-btn a {
+    color: #fba104;
+}
+.modal .link-btn a:hover {
+    text-decoration: none;
+}
 section.invest .invest-item h4,
 .investing .invest-item h4 {
     font-family: 'GothamPro-Bold';
@@ -532,10 +552,11 @@ section.map
 }
 section.map img {
     display: block;
-    /*width: 100%;
+    width: 100%;
     height: 100%;
-    margin: -100px auto 0;*/
+    margin: -80px auto 0;
 }
+
 section.map .btn {
     width: 400px;
 }
@@ -1081,6 +1102,9 @@ footer .text-lg-right li {
 .nav-tabs .nav-link {
    border-bottom: 3px solid #dee2e6 !important;
 }
+.investing-dialog h5 {
+    padding-left: 23%;
+}
 @media(max-width: 768px) {
     .modal-dialog {
         min-height: calc(100vh - 20px);
@@ -1277,20 +1301,12 @@ section.life .life-item a:hover {
 section.life .life-item-container {
     padding: 10px;
 }
-@media (max-width: 1920px) {
-    section.map img {
-        display: block;
-        width: 100%;
-        height: 100%;
-        /*margin: -80px auto 0;*/
-    }
 
-    section.ideas img {
+section.ideas img {
         width: 90%;
         margin-top: 0;
-        height: 90%;
-    }
-    }
+}
+
 @media (max-width: 1500px) {
 section.map img {
     display: block;
@@ -1334,7 +1350,7 @@ section.ideas img {
     }
     section.map
     {
-        height:  100%;
+       /* height:  100%;*/
     }
     section.map .btn {
         width: 400px;
@@ -1538,6 +1554,29 @@ section.ideas img {
     }
   }
 
+/*----------------------*/
+.owl-carousel {
+    position: relative;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    color: #fff;
+    background: #ccc;
+    border: none;
+    padding: 0 10px !important;
+}
+.owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 3px;
 
+}
+.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0.2%;
+}
 
 

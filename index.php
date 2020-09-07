@@ -1185,10 +1185,243 @@
                                 <div class="col text-center link-btn"><a href="/doc/MP.pdf" target="_blank">ЧИТАТЬ МАРКЕТИНГ ПЛАН</a></div>
                                 <div class="col text-center link-btn"><a href="#" target="_blank">СМОТРЕТЬ МАРКЕТИНГ-ПЛАН</a></div>   
                             </div>
+                            <div class="col-12 text-center">
+                                <div id="owl-carousel" class="owl-carousel">
 
-
-      
-
+                                
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет «Микропул»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>20 ИЕ = 100 USD</h4>
+                                                <div class="line"></div>
+                                                <p class="p-title">ПО «НИП» может выкупить:</p>
+                                                <p>в любое время</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point-txt">
+                                                <h4>Особые условия «Предстарта»:</h4>
+                                                <p>коэффициент начислений 1 на 1 ИЕ</p>
+                                                <div class="line"></div>   
+                                            </div>
+                                            <div class="point-txt">
+                                                <h4>Бонус за приглашения на платформу:</h4>
+                                                <p>только за прямые приглашения</p>
+                                                <div class="line"></div>   
+                                            </div>
+                                            <div class="point-txt">
+                                                <h4>Млм-доход от проектов платформы:</h4>
+                                                <p>3 инвестпроекта</p>
+                                                <div class="line"></div>   
+                                            </div>
+                                            <div class="point-txt">
+                                                <h4>Товары и услуги личноприглашенных:</h4>
+                                                <p>бонус за каждую единицу товара</p>
+                                                <div class="line"></div>   
+                                            </div>
+                                            <div class="point-txt">
+                                                <h4>Доступно: <span>2000 шт.</span></h4>
+                                            </div>
+                                        </div>
+                                        <button>Оформить пакет</button>
+                                    </div>
+                                
+                                    <div class="invest-item">
+                                <div class="item-header">
+                                    <h3>Пакет «Минипул»</h3>
+                                </div>
+                                <div class="point-list">
+                                    <div class="point">
+                                        <h4>50 ИЕ = 250 USD</h4>
+                                        <div class="line"></div>
+                                        <p class="p-title">ПО «НИП» может выкупить:</p>
+                                        <p>не ранее чем через 1 год</p>
+                                        <div class="line"></div>    
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Особые условия «Предстарта»:</h4>
+                                        <p>коэффициент начислений 1 на 1 ИЕ</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Бонус за приглашения на платформу:</h4>
+                                        <p>по млм-сети</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Млм-доход от проектов платформы:</h4>
+                                        <p>5 инвестпроектов</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Товары и услуги в млм-сети:</h4>
+                                        <p>бонус за каждую единицу товара</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Доступно: <span>1000 шт.</span></h4>
+                                    </div>
+                                </div>
+                                <button>Оформить пакет</button>
+                            </div>
+                            <div class="invest-item">
+                                <div class="item-header">
+                                    <h3>Пакет «Мидипул»</h3>
+                                </div>
+                                <div class="point-list">
+                                    <div class="point">
+                                        <h4>100 ИЕ = 500 USD</h4>
+                                        <div class="line"></div>
+                                        <p class="p-title">ПО «НИП» может выкупить:</p>
+                                        <p>не ранее чем через 2 года</p>
+                                        <div class="line"></div>
+                                        
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Особые условия «Предстарта»:</h4>
+                                        <p>коэффициент начислений 1,1 на 1 ИЕ</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Бонус за приглашения на платформу:</h4>
+                                        <p>по млм-сети</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Млм-доход от проектов платформы:</h4>
+                                        <p>10 инвестпроектов</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Товары и услуги в млм-сети:</h4>
+                                        <p>бонус за каждую единицу товара</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Доступно: <span>500 шт.</span></h4>
+                                    </div>
+                                </div>
+                                <button>Оформить пакет</button>
+                            </div>
+                            <div class="invest-item">
+                                <div class="item-header">
+                                    <h3>Пакет «Максипул»</h3>
+                                </div>
+                                <div class="point-list">
+                                    <div class="point">
+                                        <h4>500 ИЕ = 2500 USD</h4>
+                                        <div class="line"></div>
+                                        <p class="p-title">ПО «НИП» может выкупить:</p>
+                                        <p>не ранее чем через 3 года</p>
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Особые условия «Предстарта»:</h4>
+                                        <p>коэффициент начислений 1,15 на 1 ИЕ</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Бонус за приглашения на платформу:</h4>
+                                        <p>по млм-сети</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Млм-доход от проектов платформы:</h4>
+                                        <p>20 инвестпроектов</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Товары и услуги в млм-сети:</h4>
+                                        <p>бонус за каждую единицу товара</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Доступно: <span>100 шт.</span></h4>
+                                    </div>
+                                </div>
+                                <button>Оформить пакет</button>
+                            </div>
+                            <div class="invest-item">
+                                <div class="item-header">
+                                    <h3>Пакет «VIP-пул»</h3>
+                                </div>
+                                <div class="point-list">
+                                    <div class="point">
+                                        <h4>1000 ИЕ = 5000 USD</h4>
+                                        <div class="line"></div>
+                                        <p class="p-title">ПО «НИП» может выкупить:</p>
+                                        <p>не ранее чем через 4 года</p>
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Особые условия «Предстарта»:</h4>
+                                        <p>коэффициент начислений 1,2 на 1 ИЕ</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Бонус за приглашения на платформу:</h4>
+                                        <p>по млм-сети</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Млм-доход от проектов платформы:</h4>
+                                        <p>без ограничений</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Товары и услуги в млм-сети:</h4>
+                                        <p>бонус за каждую единицу товара</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Доступно: <span>40 шт.</span></h4>
+                                    </div>
+                                </div>
+                                <button>Оформить пакет</button>
+                            </div>
+                            <div class="invest-item">
+                                <div class="item-header">
+                                    <h3>Пакет «Exclusive»</h3>
+                                </div>
+                                <div class="point-list">
+                                    <div class="point">
+                                        <h4>10 000 ИЕ = 50000 USD</h4>
+                                        <div class="line"></div>
+                                        <p class="p-title">ПО «НИП» может выкупить:</p>
+                                        <p>не ранее чем через 5 лет</p>
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Постоянные условия:</h4>
+                                        <p>коэффициент начислений 1,25 на 1 ИЕ</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Бонус за приглашения на платформу:</h4>
+                                        <p>по млм-сети</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Млм-доход от проектов платформы:</h4>
+                                        <p>без ограничений</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Товары и услуги в млм-сети:</h4>
+                                        <p>бонус за каждую единицу товара</p>
+                                        <div class="line"></div>   
+                                    </div>
+                                    <div class="point-txt">
+                                        <h4>Предусмотрено: <span>2 шт.</span></h4>
+                                    </div>
+                                </div>
+                                <button disabled="disabled" style="background-color: #72839c; padding-bottom: 0; font-size: 14px;">На «Предстарте»<br>не доступно</button>
+                            </div>
+        
+                                </div>
+                            </div>
 
                     </div>
                 </div>
@@ -1365,7 +1598,35 @@
             $(window).scroll(navbarCollapse);
         });
     </script>
-
+<script>
+$(document).ready(function() {
+  $("#owl-carousel").owlCarousel({
+    loop:true,
+    nav:false,
+    smartSpeed: 1000,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:false
+        }
+    }
+  });
+  
+  $(".owl-prev").html("<i class='fa fa-angle-left'></i>");
+  $(".owl-next").html("<i class='fa fa-angle-right'></i>");
+});
+</script>
     <script>
         $(document).ready(function () {
             $('#contactForm').validate({
@@ -1485,7 +1746,7 @@
         var currentUser = -1;
 
         $(document).ready(function () {
-            $('#invest button').on('click', function () {
+            $('#invest button, .invest-item button').on('click', function () {
                 showRegistrationForm();
             });
         });
@@ -1493,7 +1754,7 @@
         function showRegistrationForm() {
             $('#register-phone').mask('+38 (999) 999-99-99');
             $('#registerPhone').mask('+38 (999) 999-99-99');
-
+            $('#investing').modal('hide');
             $('#usererror').hide();
             $('#flow').modal('toggle');
         }
@@ -1709,19 +1970,11 @@
 
     </script>
 
-    <script>
-
-
-
-   
-    </script>
-
-
-    <script>
+    <!--<script>
         $(document).ready(function () {
             $('#investing').modal("toggle");
         });
-    </script>
+    </script>-->
 
 
 </body>
