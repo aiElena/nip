@@ -417,7 +417,7 @@
                 <h2>ПОМОЖЕМ РЕАЛИЗОВАТЬ ПРОСТЫЕ ИЛИ АМБИЦИОЗНЫЕ ИДЕИ</h2>
             </div>
             <div class="row">
-                <div class="h-75 col-lg-6">
+                <div class="col-lg-6">
                     <div class="ideas-item">
                         <p>
                         &emsp;Хочешь формировать будущее? На НИП каждый сможет выдвинуть свою идею, получить на нее обратную связь не представителей государства, а таких же осознанных, самостоятельных, думающих людей, которые сами хотят определять где им жить и как. На платформе можно будет получить среду для развития и доработки своей идеи, проверенные, протестированные и утвержденные идеи будут выставлены на капитализацию народными инвесторами, а затем будет сформирована команда специалистов под каждый проект, подобран персонал и налажено производство, команда платформы будет контролировать оптимизацию технологического процесса, обеспечивать правовую поддержку, бухгалтерию, продвижение продукта и формирование сообщества для его реализации.<br/>
@@ -427,7 +427,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-75 col-lg-6">
+                <div class="col-lg-6">
                     <img src="images/shema.png" alt="Схема инвестиции">
                 </div>
                 <div class="col-lg-12 text-center">
@@ -1128,10 +1128,12 @@
         <div class="modal-dialog investing-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
+                    <div class="col-8 offset-2">
                         <h5 class="modal-title">Инвестировать</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
-                        </button>    
+                        </button>
+                    </div>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -1181,15 +1183,229 @@
                                     <a href="javascript:void(0);" class="btn-get-started animate__animated animate__fadeInUp text-center">Маркетинг план</a>
                                 </div>
                             </div>
-                            <div class="row justify-content-center">   
-                                <div class="col text-center link-btn"><a href="/doc/MP.pdf" target="_blank">ЧИТАТЬ МАРКЕТИНГ ПЛАН</a></div>
-                                <div class="col text-center link-btn"><a href="#" target="_blank">СМОТРЕТЬ МАРКЕТИНГ-ПЛАН</a></div>   
+                            <div id="carousel" class="carousel slide" data-ride="carousel">
+                           
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет<br/>«Микропул»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>Количество паев:</h4>
+                                                <p>20</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point fix-offset">
+                                                <h4>Ограничения:</h4>
+                                                <p>только прямые приглашения, получение млм-дохода максимум в 3-х инвест-проектах платформы</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Особые условия предстарта:</h4>
+                                                <p>Нет</p>
+                                                <h4>Постоянные условия предстарта:</h4>
+                                                <p>Коэффициент начисления на пай: 1 к 1</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <p class="sens">Условия выкупа пакета ПО «НИП»:</p>
+                                                <h4 class="sens">В любое время<br/>&nbsp;</h4>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Доступно пакетов:</h4>
+                                                <p>2000</p>
+                                            </div>
+                                        </div>
+                                        <button onclick="javascript:onInvestPackage(1);">Оформить пакет<br/>за 100 у.е.</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет<br/>«Минипул»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>Количество паев:</h4>
+                                                <p>50</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point fix-offset">
+                                                <h4>Ограничения:</h4>
+                                                <p>получение млм-дохода от инвестирования платформы максимум от 5-ти инвестпроектов</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Особые условия предстарта:</h4>
+                                                <p>Нет</p>
+                                                <h4>Постоянные условия предстарта:</h4>
+                                                <p>Коэффициент начисления на пай: 1 к 1</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <p class="sens">Условия выкупа пакета ПО «НИП»:</p>
+                                                <h4 class="sens">Не ранее чем через 1 год</h4>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Доступно пакетов:</h4>
+                                                <p>1000</p>
+                                            </div>
+                                        </div>
+                                        <button onclick="javascript:onInvestPackage(2);">Оформить пакет<br/>за 250 у.е.</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет<br/>«Мидипул»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>Количество паев:</h4>
+                                                <p>100</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point fix-offset">
+                                                <h4>Ограничения:</h4>
+                                                <p>получение млм-дохода от инвестирования платформы максимум от 10-ти инвестпроектов</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Особые условия предстарта:</h4>
+                                                <p>Нет</p>
+                                                <h4>Постоянные условия предстарта:</h4>
+                                                <p>Коэффициент начисления на пай: 1 к 1,1</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <p class="sens">Условия выкупа пакета ПО «НИП»:</p>
+                                                <h4 class="sens">Не ранее чем через 2 года</h4>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Доступно пакетов:</h4>
+                                                <p>500</p>
+                                            </div>
+                                        </div>
+                                        <button onclick="javascript:onInvestPackage(3);">Оформить пакет<br/>за 500 у.е.</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет<br/>«Максипул»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>Количество паев:</h4>
+                                                <p>500</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point fix-offset">
+                                                <h4>Ограничения:</h4>
+                                                <p>получение млм-дохода от инвестирования платформы максимум от 20-ти инвестпроектов</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Особые условия предстарта:</h4>
+                                                <p>Нет</p>
+                                                <h4>Постоянные условия предстарта:</h4>
+                                                <p>Коэффициент начисления на пай: 1 к 1,15</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <p class="sens">Условия выкупа пакета ПО «НИП»:</p>
+                                                <h4 class="sens">Не ранее чем через 3 года</h4>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Доступно пакетов:</h4>
+                                                <p>100</p>
+                                            </div>
+                                        </div>
+                                        <button onclick="javascript:onInvestPackage(4);">Оформить пакет<br/>за 2500 у.е.</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет<br/>«VIP-пул»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>Количество паев:</h4>
+                                                <p>1000</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point fix-offset">
+                                                <h4>Ограничения:</h4>
+                                                <p>НЕТ</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Особые условия предстарта:</h4>
+                                                <p>Нет</p>
+                                                <h4>Постоянные условия предстарта:</h4>
+                                                <p>Коэффициент начисления на пай: 1 к 1,2</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <p class="sens">Условия выкупа пакета ПО «НИП»:</p>
+                                                <h4 class="sens">Не ранее чем через 4 года</h4>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Доступно пакетов:</h4>
+                                                <p>40</p>
+                                            </div>
+                                        </div>
+                                        <button onclick="javascript:onInvestPackage(5);">Оформить пакет<br/>за 5000 у.е.</button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                    <div class="invest-item">
+                                        <div class="item-header">
+                                            <h3>Пакет<br/>«Exclusive»</h3>
+                                        </div>
+                                        <div class="point-list">
+                                            <div class="point">
+                                                <h4>Количество паев:</h4>
+                                                <p>10 000</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point fix-offset">
+                                                <h4>Ограничения:</h4>
+                                                <p>НЕТ</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Особые условия предстарта:</h4>
+                                                <!--<h4 style="color: red">Не <br/>&nbsp;<br/> оформляется</h4>-->
+                                                <!--<p>Нет</p>-->
+                                                <p style="color: red !important;">Не оформляется</p>
+                                                <h4>Постоянные условия предстарта:</h4>
+                                                <p>Коэффициент начисления на пай: 1 к 1,25</p>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <p class="sens">Условия выкупа пакета ПО «НИП»:</p>
+                                                <h4 class="sens">Не ранее чем через 5 лет</h4>
+                                                <div class="line"></div>
+                                            </div>
+                                            <div class="point">
+                                                <h4>Доступно пакетов:</h4>
+                                                <p>2</p>
+                                            </div>
+                                        </div>
+                                        <button disabled="disabled" style="background-color: #dee2e6">Оформить пакет<br/>за 50000 у.е.</button>
+                                    </div>
+                                </div>
                             </div>
-
-
-      
-
-
+                        </div>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -1618,7 +1834,7 @@
     <?php
         }
     ?>
-   <script>
+    <script>
     'use strict';
     var multiItemSlider = (function () {
       return function (selector, config) {
@@ -1708,20 +1924,11 @@
     var slider = multiItemSlider('.slider')
 
     </script>
-
-    <script>
-
-
-
-   
-    </script>
-
-
-    <script>
+    <!--<script>
         $(document).ready(function () {
             $('#investing').modal("toggle");
         });
-    </script>
+    </script>-->
 
 
 </body>

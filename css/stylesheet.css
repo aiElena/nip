@@ -190,25 +190,9 @@ h1, h2, h3, h4, h5, h6,
     display: -ms-flexbox;
     display:         flex;
 }
-section.advantages,
-section.map,
-section.ideas,
-section.invest,
-section.team {
-    height: 100vh;
-}
-@media (max-width: 992px) {
-    section.advantages,
-    section.map,
-    section.ideas,
-    section.invest,
-    section.team {
-        height: auto;
-    }  
-}
 section.advantages {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
 }
 section.advantages .text-center {
 /*margin-bottom: 20px;*/
@@ -250,20 +234,20 @@ section.ideas .ideas-item {
     border: 1px solid rgb(95, 105, 129);
     border-radius: 20px;
     padding: 10px 20px 0 20px;
-    margin: 5px 0 10px 0;
+    margin: 10px 0 20px 0;
     background: #fff;
 }
 section.ideas .ideas-item p {
     font-size: 14px;
     text-align: left;
     font-weight: 400;
+    line-height: 1.2;
     color: #183aa0 !important;
     text-transform: unset;
     font-family: 'GothamPro-Light';
 }
 section.ideas .btn {
     width: 400px;
-                            /*margin-top: 5%;*/
 }
 section.invest {
     padding-top: 20px;
@@ -318,7 +302,7 @@ section.invest .invest-item button,
     border: none;
     font-family: 'GothamPro-Bold';
     font-size: 23px;
-    border-radius: 0px;
+    border-radius: 3px;
     margin: 10px auto;
     padding: 5px 0 5px 0;
     /*padding-top: 15px;
@@ -543,14 +527,14 @@ section.advantages .advantages-item p {
 section.map
 {
     height:  100vh;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 section.map img {
     display: block;
     /*width: 100%;
-    height: 100%;*/
-    margin: -100px auto 0;
+    height: 100%;
+    margin: -100px auto 0;*/
 }
 section.map .btn {
     width: 400px;
@@ -1021,8 +1005,8 @@ section#contact form#contactForm :-ms-input-placeholder {
     justify-content: center;
     padding: 0;
     border-radius: 100%;
-    background: rgb(0, 100, 180);
-    border: 1px solid rgb(0, 100, 180);
+    background: #1e45a1;
+    border: 1px solid #1e45a1;
 }
 .btn-social:hover {
     background: #0092ca;
@@ -1298,22 +1282,13 @@ section.life .life-item-container {
         display: block;
         width: 100%;
         height: 100%;
-        margin: -80px auto 0;
+        /*margin: -80px auto 0;*/
     }
-    section.ideas .ideas-item p {
-        font-size: 14px;
-        line-height: 1.2;
-    }
+
     section.ideas img {
         width: 90%;
         margin-top: 0;
         height: 90%;
-    }
-                            /*section.ideas .btn {
-                                margin: -40px 0 17px 0;
-                            }*/
-    section.map .btn {
-        margin: -40px 0 0 0;
     }
     }
 @media (max-width: 1500px) {
@@ -1323,18 +1298,11 @@ section.map img {
     height: 85%;
     margin: -100px auto 0;
 }
-section.ideas .ideas-item p {
-    font-size: 12px;
-    line-height: 1.2;
-}
 section.ideas img {
-    width: 80%;
+    width: 85%;
     margin-top: -40px;
-    height: 80%;
+    height: 85%;
 }
-                        /*section.ideas .btn {
-                            margin-top: -100px;
-                        }*/
 }
 @media (max-width: 1200px) {
     section.map img {
@@ -1352,21 +1320,12 @@ section.ideas img {
 
     section.ideas .btn {
         width: 400px;
-        margin-top: -10px;
     }
 }
 @media (max-width: 768px) {
     section.ideas .ideas-item {
         padding: 10px 20px 0 20px;
         margin: 10px 0 10px 0;
-    }
-    section.ideas .ideas-item p {
-        font-size: 14px;
-        text-align: left;
-        font-weight: 400;
-        color: #183aa0 !important;
-        text-transform: unset;
-        font-family: 'GothamPro-Light';
     }
     section.ideas img {
         margin-top: 10px;
@@ -1383,7 +1342,6 @@ section.ideas img {
     }
     section.ideas .btn {
         width: 400px;
-        margin-top: 0;  
     }
 }
 @media (max-width: 500px) {
@@ -1392,8 +1350,7 @@ section.ideas img {
     } 
     section.map .btn,
     section.ideas .btn {
-        width: 300px;
-        margin: 10% auto 0;  
+        width: 300px; 
     }
     section.map img {
         width: 100%;
@@ -1559,7 +1516,9 @@ section.ideas img {
     color: #fff;
     letter-spacing: 0.0625em;
     padding: 8px 5px;
+    margin-left: 0.5rem;
     border: 1px solid #1e45a1;
+    border-radius: 3px;
     background: #1e45a1;
 }
 .menu-bottom a.nav-item:hover {
