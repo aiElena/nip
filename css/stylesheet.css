@@ -191,8 +191,9 @@ h1, h2, h3, h4, h5, h6,
     display:         flex;
 }
 section.advantages {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 100vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 section.advantages .text-center {
 /*margin-bottom: 20px;*/
@@ -545,9 +546,9 @@ section.advantages .advantages-item p {
 }
 section.map
 {
-    
-    padding-top: 20px;
-    padding-bottom: 20px;
+    height: 80vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 section.map img {
     display: block;
