@@ -417,7 +417,7 @@
                 <h2>ПОМОЖЕМ РЕАЛИЗОВАТЬ ПРОСТЫЕ ИЛИ АМБИЦИОЗНЫЕ ИДЕИ</h2>
             </div>
             <div class="row">
-                <div class="h-75 col-lg-6">
+                <div class="col-lg-6">
                     <div class="ideas-item">
                         <p>
                         &emsp;Хочешь формировать будущее? На НИП каждый сможет выдвинуть свою идею, получить на нее обратную связь не представителей государства, а таких же осознанных, самостоятельных, думающих людей, которые сами хотят определять где им жить и как. На платформе можно будет получить среду для развития и доработки своей идеи, проверенные, протестированные и утвержденные идеи будут выставлены на капитализацию народными инвесторами, а затем будет сформирована команда специалистов под каждый проект, подобран персонал и налажено производство, команда платформы будет контролировать оптимизацию технологического процесса, обеспечивать правовую поддержку, бухгалтерию, продвижение продукта и формирование сообщества для его реализации.<br/>
@@ -427,11 +427,13 @@
                         </p>
                     </div>
                 </div>
-                <div class="h-75 col-lg-6">
+                <div class="col-lg-6">
                     <img src="images/shema.png" alt="Схема инвестиции">
                 </div>
-                <div class="col-lg-12 text-center">
-                    <button class="btn btn-get-started"  href="javascript:void(0);" onclick="javascipt:showRegistrationForm();">Инвестировать идею</button>
+                <div class="btn-position">
+                    <div class="text-center">
+                        <button class="btn btn-get-started"  href="javascript:void(0);" onclick="javascipt:showRegistrationForm();">Инвестировать идею</button>
+                    </div> 
                 </div> 
             </div>
         </div>
@@ -713,15 +715,22 @@
       
         </div>
     </section>
+
     <section class="page-section section-back map" id="map">
-        <div class="container bg">
-            <div class="col-lg-12">
-                <h2>Дорожная карта НИП</h2>
-                <img src="images/roadmap.png" alt="Дорожная карта НИП">
-                <div class="text-center">
-                    <button class="btn btn-get-started" href="javascript:void(0);" onclick="javascipt:setFinanceActive();showRegistrationForm();">Присоединиться к проекту</button>
-                </div> 
-            </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Дорожная карта НИП</h2>
+                    <picture>
+                        <img src="images/roadmap.png" alt="Дорожная карта НИП" style="object-fit: cover;"/>
+                    </picture>    
+                </div>
+                <div class="btn-position">
+                    <div class="text-center">
+                        <button class="btn btn-get-started" href="javascript:void(0);" onclick="javascipt:setFinanceActive();showRegistrationForm();">Присоединиться к проекту</button>
+                    </div> 
+                </div>
+            </div>    
         </div>
     </section>
 
@@ -1555,18 +1564,39 @@
                     target = target.length
                         ? target
                         : $("[name=" + this.hash.slice(1) + "]");
-                    if (target.length) {
-                        $("html, body").animate(
+
+                    if (document.documentElement.clientWidth > 768) {    
+                        if (target.length) {
+                            $("html, body").animate(    
+                                {
+                                    scrollTop: target.offset().top - 150,
+                                },
+                                1000,
+                                "easeInOutExpo"
+                            );
+                            return false;
+                        }
+                    } else {
+                        if (target.length) {    
+                        $("html, body").animate(    
                             {
-                                scrollTop: target.offset().top - 150,
+                                scrollTop: target.offset().top - 93,
                             },
                             1000,
                             "easeInOutExpo"
                         );
                         return false;
                     }
+                    }; 
                 }
             });
+
+
+if (document.documentElement.clientWidth < 1200) {
+
+} else {
+
+};           
 
             // Closes responsive menu when a scroll trigger link is clicked
             $(".js-scroll-trigger").click(function () {
@@ -1965,11 +1995,11 @@ $(document).ready(function() {
 
     </script>
 
-    <script>
+    <!--<script>
         $(document).ready(function () {
             $('#investing').modal("toggle");
         });
-    </script>
+    </script>-->
 
 
 </body>
