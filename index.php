@@ -1229,7 +1229,8 @@
                                                 <h4>Доступно: <span>2000 шт.</span></h4>
                                             </div>
                                         </div>
-                                        <button>Оформить пакет</button>
+                                        <!--<button>Оформить пакет</button>-->
+                                        <button onclick="javascript:onInvestPackage(1);">Оформить пакет</button>
                                     </div>
                                 
                                     <div class="invest-item">
@@ -1268,7 +1269,8 @@
                                         <h4>Доступно: <span>1000 шт.</span></h4>
                                     </div>
                                 </div>
-                                <button>Оформить пакет</button>
+                                <!--<button>Оформить пакет</button>-->
+                                <button onclick="javascript:onInvestPackage(2);">Оформить пакет</button>
                             </div>
                             <div class="invest-item">
                                 <div class="item-header">
@@ -1307,7 +1309,8 @@
                                         <h4>Доступно: <span>500 шт.</span></h4>
                                     </div>
                                 </div>
-                                <button>Оформить пакет</button>
+                                <!--<button>Оформить пакет</button>-->
+                                <button onclick="javascript:onInvestPackage(3);">Оформить пакет</button>
                             </div>
                             <div class="invest-item">
                                 <div class="item-header">
@@ -1345,7 +1348,8 @@
                                         <h4>Доступно: <span>100 шт.</span></h4>
                                     </div>
                                 </div>
-                                <button>Оформить пакет</button>
+                                <!--<button>Оформить пакет</button>-->
+                                <button onclick="javascript:onInvestPackage(4);">Оформить пакет</button>
                             </div>
                             <div class="invest-item">
                                 <div class="item-header">
@@ -1383,7 +1387,8 @@
                                         <h4>Доступно: <span>40 шт.</span></h4>
                                     </div>
                                 </div>
-                                <button>Оформить пакет</button>
+                                <!--<button>Оформить пакет</button>-->
+                                <button onclick="javascript:onInvestPackage(5);">Оформить пакет</button>
                             </div>
                             <div class="invest-item">
                                 <div class="item-header">
