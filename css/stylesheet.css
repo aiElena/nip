@@ -192,8 +192,9 @@ h1, h2, h3, h4, h5, h6,
     display:         flex;
 }
 section.advantages {
+    width: 100%;
     height: auto;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
 }
 section.advantages .text-center {
@@ -227,13 +228,13 @@ section.invest h3,
 section.ideas {
     position: relative;
     height: 86vh;
-    padding-top: 3%;
+    padding-top: 2%;
     padding-bottom: 3%;
 }
 section.ideas img {
-    width: 94%;
+    width: 90%;
     height: auto;
-    margin-top: -9%; 
+    margin-top: -8%; 
 }
 @media (max-width: 1200px) {
     section.ideas {
@@ -255,7 +256,7 @@ section.ideas .ideas-item p {
     font-size: 14px;
     text-align: left;
     font-weight: 400;
-    line-height: 1.4;
+    line-height: 1.2;
     color: #183aa0 !important;
     text-transform: unset;
     font-family: 'GothamPro-Light';
@@ -265,8 +266,8 @@ section.ideas .btn {
     width: 400px;
 }
 section.invest {
-    height: auto;
-    padding-top: 5%;
+    height: 87vh;
+    padding-top: 3.5%;
     padding-bottom: 5%;
 }
 section.invest h2 {
@@ -563,26 +564,27 @@ section.advantages .advantages-item p {
 }
 section.map {
     position: relative;
-    height: 86vh;
+    height: 87vh;
     padding-top: 5%;
     padding-bottom: 5%;
 }
-section.map img {
-    margin-top: -12%;
-    width: 88%;
-    height: auto;
-}
+                /*section.map img {
+                    margin-top: -12%;
+                    width: 88%;
+                    height: auto;
+                    background-size: 100% 100%;
+                }*/
 section.map .btn-position {
     position: absolute;
     margin:auto;
-    bottom: 15%;
+    bottom: 8%;
     left: 50%; 
     margin-left: -200px;
 }
 section.ideas .btn-position{
     position: absolute;
     margin:auto;
-    bottom: 8%;
+    bottom: 6%;
     left: 50%; 
     margin-left: -200px;
 }
@@ -1331,16 +1333,16 @@ section.life .life-item-container {
     padding: 10px;
 }
 @media (max-width: 1920px) {
-    section.map img {
-       display: block;
-       margin: -8% auto 0;
-    }
+                            /*section.map img {
+                            display: block;
+                            margin: -8% auto 0;
+                            }*/
     }
 @media (max-width: 1500px) {
-    section.map img {
-        display: block;
-        margin: -10% auto 0;
-    }
+                        /*section.map img {
+                            display: block;
+                            margin: -10% auto 0;
+                        }*/     
     section.ideas .ideas-item p {
         line-height: 1.1;
     }
@@ -1350,9 +1352,9 @@ section.life .life-item-container {
     }
 }
 @media (max-width: 1200px) {
-    section.map img {
-        margin: -11% auto 0;
-    }
+                    /*section.map img {
+                        margin: -11% auto 0;
+                    }*/
     section.ideas img {
         margin: 0 auto;
         margin-top: -9%;
@@ -1371,14 +1373,14 @@ section.life .life-item-container {
         width: 400px;
     }
 }
-@media (max-width: 768px) {
-    .ideas-item {
+@media (max-width: 991px) {
+    section.ideas {
+        width: 100%;
+        height: auto;
+     }
+     .ideas-item {
         padding: 10px 20px 0 20px;
         margin: 10px 0 10px 0;
-    }
-    section.ideas {
-       /* width: 100%;
-        height: auto; */
     }
     section.ideas .ideas-item {
         margin: 10px 0 0 0;
@@ -1387,21 +1389,24 @@ section.life .life-item-container {
         line-height: 1.2;
     }
     section.ideas img {
-        width: 100%;
+       /* width: 100%;*/
         margin: 5% auto 20%;
     }
     section.ideas .btn-position {
         bottom: 5%;
         left: 50%;
     }
+}
+@media (max-width: 768px) {
+
     section.map {
         height: 91vh;
     }
-    section.map img {
-        margin: 7% auto;
-        width: 100%;
-        height: auto;
-    }
+                    /*section.map img {
+                        margin: 7% auto;
+                        width: 100%;
+                        height: auto;
+                    }*/
     section.map .btn {
         width: 400px;
     }
@@ -1417,11 +1422,11 @@ section.life .life-item-container {
     section.ideas .btn {
         width: 300px; 
     }
-    section.map img {
-        width: 100%;
-        height: auto;
-        margin: 7% auto;
-    }
+                /*section.map img {
+                    width: 100%;
+                    height: auto;
+                    margin: 7% auto;
+                }*/
     section.map h2 {
         margin-left: 34px;
         position: relative;
@@ -1650,6 +1655,24 @@ section.life .life-item-container {
     top: 50%;
     left: 0.2%;
 }
-
+.relation {
+    position: relative;
+}
+.relation-ration {
+    padding-top: 56.25%;
+    height: 0;
+}
+.relation-content {
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    left: 0;
+}
+@media (max-width: 768px) {
+    .relation-content {
+        bottom: 0;
+        top: 8%;
+    }
+}
 
 

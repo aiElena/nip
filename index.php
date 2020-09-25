@@ -721,9 +721,12 @@
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Дорожная карта НИП</h2>
-                    <picture>
-                        <img src="images/roadmap.png" alt="Дорожная карта НИП" style="object-fit: cover;"/>
-                    </picture>    
+                    <div class="relation">
+                        <div class="relation-ration"></div>
+                        <div class="relation-content mb-5">
+                            <img class="img-fluid" src="images/roadmap.png" alt="Дорожная карта НИП"/>
+                        </div>                    
+                    </div>                   
                 </div>
                 <div class="btn-position">
                     <div class="text-center">
