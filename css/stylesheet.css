@@ -1389,7 +1389,8 @@ section.life .life-item-container {
         line-height: 1.2;
     }
     section.ideas img {
-       /* width: 100%;*/
+        width: 100%;
+        height: auto;
         margin: 5% auto 20%;
     }
     section.ideas .btn-position {
