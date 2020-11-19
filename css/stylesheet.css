@@ -256,7 +256,7 @@ section.ideas .ideas-item p {
     font-size: 14px;
     text-align: left;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.4;
     color: #183aa0 !important;
     text-transform: unset;
     font-family: 'GothamPro-Light';
@@ -267,8 +267,13 @@ section.ideas .btn {
 }
 section.invest {
     height: 87vh;
-    padding-top: 3.5%;
+    padding-top: 3%;
     padding-bottom: 5%;
+}
+@media (max-width: 1200px) {
+    section.invest {
+        height: auto;
+    }
 }
 section.invest h2 {
     font-family: 'GothamPro-Bold';
@@ -322,8 +327,6 @@ section.invest .invest-item button,
     border-radius: 3px;
     margin: 10px auto;
     padding: 5px 0 5px 0;
-    /*padding-top: 15px;
-    padding-bottom: 20px;*/
 }
 section.invest .invest-item button:hover,
 .investing .invest-item button.advantages-item:hover {
@@ -564,20 +567,14 @@ section.advantages .advantages-item p {
 }
 section.map {
     position: relative;
-    height: 87vh;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 84vh;
+    padding-top: 1.5%;
+    padding-bottom: 2%;
 }
-                /*section.map img {
-                    margin-top: -12%;
-                    width: 88%;
-                    height: auto;
-                    background-size: 100% 100%;
-                }*/
 section.map .btn-position {
     position: absolute;
     margin:auto;
-    bottom: 8%;
+    bottom: 5%;
     left: 50%; 
     margin-left: -200px;
 }
@@ -891,9 +888,6 @@ section#team {
     font-size:23px;
     text-transform: uppercase;
     width: 290px;
-    /*width: 100%;
-    margin: 0 auto;*/
-    /*height: 44px;*/
     background-color: #1e45a1;
     border-radius:3px;
     border:none;
@@ -901,10 +895,6 @@ section#team {
     cursor:pointer;
     padding: 5px;
     text-decoration:none;
-   /* position: absolute;
-    bottom: 50px;
-    left: 50%;
-    margin-left: -145px;*/
 }
 .btn-get-started:hover {
     background-color: #0070b5;
@@ -1332,17 +1322,7 @@ section.life .life-item a:hover {
 section.life .life-item-container {
     padding: 10px;
 }
-@media (max-width: 1920px) {
-                            /*section.map img {
-                            display: block;
-                            margin: -8% auto 0;
-                            }*/
-    }
-@media (max-width: 1500px) {
-                        /*section.map img {
-                            display: block;
-                            margin: -10% auto 0;
-                        }*/     
+@media (max-width: 1500px) {    
     section.ideas .ideas-item p {
         line-height: 1.1;
     }
@@ -1352,9 +1332,6 @@ section.life .life-item-container {
     }
 }
 @media (max-width: 1200px) {
-                    /*section.map img {
-                        margin: -11% auto 0;
-                    }*/
     section.ideas img {
         margin: 0 auto;
         margin-top: -9%;
@@ -1366,21 +1343,18 @@ section.life .life-item-container {
     section.ideas .ideas-item p {
         line-height: 0.9;
     }
-    section.ideas .btn-position {
-        left: 74%;
-    }
     section.ideas .btn {
         width: 400px;
     }
 }
-@media (max-width: 991px) {
-    section.ideas {
-        width: 100%;
-        height: auto;
-     }
-     .ideas-item {
+@media (max-width: 768px) {
+    .ideas-item {
         padding: 10px 20px 0 20px;
         margin: 10px 0 10px 0;
+    }
+    section.ideas {
+       width: 100%;
+        height: auto;
     }
     section.ideas .ideas-item {
         margin: 10px 0 0 0;
@@ -1390,24 +1364,15 @@ section.life .life-item-container {
     }
     section.ideas img {
         width: 100%;
-        height: auto;
         margin: 5% auto 20%;
     }
     section.ideas .btn-position {
         bottom: 5%;
         left: 50%;
     }
-}
-@media (max-width: 768px) {
-
     section.map {
         height: 91vh;
     }
-                    /*section.map img {
-                        margin: 7% auto;
-                        width: 100%;
-                        height: auto;
-                    }*/
     section.map .btn {
         width: 400px;
     }
@@ -1423,11 +1388,6 @@ section.life .life-item-container {
     section.ideas .btn {
         width: 300px; 
     }
-                /*section.map img {
-                    width: 100%;
-                    height: auto;
-                    margin: 7% auto;
-                }*/
     section.map h2 {
         margin-left: 34px;
         position: relative;
@@ -1658,6 +1618,8 @@ section.life .life-item-container {
 }
 .relation {
     position: relative;
+    width: 100%;
+   
 }
 .relation-ration {
     padding-top: 56.25%;
@@ -1666,14 +1628,30 @@ section.life .life-item-container {
 .relation-content {
     position: absolute;
     width: 100%;
-    bottom: 10%;
+    top: 0;
     left: 0;
+
+}
+@media (max-width: 1024px) {
+    .relation-content {
+        top: 0;
+        bottom: 0;
+        left: 0;
+    }
 }
 @media (max-width: 768px) {
     .relation-content {
+        top: 30%;
         bottom: 0;
-        top: 8%;
+        left: 0;
     }
 }
-
+@media (max-width: 1280px) {
+.relation-content {
+    position: absolute;
+    width: 95%;
+    bottom: 8%;
+    left: 8.5%;
+}
+}
 

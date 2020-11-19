@@ -716,15 +716,36 @@
         </div>
     </section>
 
-    <section class="page-section section-back map" id="map">
+    <!--<section class="page-section section-back map" id="map">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <h2>Дорожная карта НИП</h2>
                     <div class="relation">
                         <div class="relation-ration"></div>
-                        <div class="relation-content mb-5">
-                            <img class="img-fluid" src="images/roadmap.png" alt="Дорожная карта НИП"/>
+                        <div class="relation-content mb-4">
+                            <img class="img-fluid center-block" src="images/roadmap.png" alt="Дорожная карта НИП"/>
+                        </div>                    
+                    </div>                   
+                </div>
+                <div class="btn-position">
+                    <div class="text-center">
+                        <button class="btn btn-get-started" href="javascript:void(0);" onclick="javascipt:setFinanceActive();showRegistrationForm();">Присоединиться к проекту</button>
+                    </div> 
+                </div>
+            </div>    
+        </div>
+    </section>-->
+    <section class="page-section section-back map" id="map">
+        <h2>Дорожная карта НИП</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                   
+                    <div class="relation">
+                        <div class="relation-ration"></div>
+                        <div class="relation-content mb-4">
+                            <img class="img-fluid center-block" src="images/roadmap.png" alt="Дорожная карта НИП"/>
                         </div>                    
                     </div>                   
                 </div>
